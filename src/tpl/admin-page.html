@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Администратор</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style2.css">
+		<script src="js/myscripts.js"></script>
+		
+		
+
+	</head>
+  <body>
+    <header>
+		<div class="page-header">
+			<div id = "user_view">
+				<div class = "user-panel">
+					<div class="dropdown">
+					  <button class="btn btn-default dropdown-toggle user-button" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						Имя	
+						<span class="glyphicon glyphicon-user user-icon" aria-hidden="true"></span>
+						<span class="caret"></span>
+					  </button>
+					  <ul class="dropdown-menu user-menu" aria-labelledby="dropdownMenu2">
+						<li><a href="#">Кабинет</a></li>
+						<li><a href="#">Выход</a></li>
+					  </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="row">
+			
+				<div class="card-row clearfix">
+				
+					<div class="col-md-3">
+						<div class="panel panel-default">
+							<div class="panel-heading">Категория отзыва</div>
+							<div class="panel-body">
+								<ul class="nav nav-pills nav-stacked nav">
+								  <li role="presentation"><a href="#">Profile</a></li>
+								  <li role="presentation"><a href="#">Messages</a></li>
+								</ul>								
+							</div>	
+							
+							<div class="panel-heading">Оозывы по статьям</div>
+							<div class="panel-body">
+								<ul class="nav nav-pills nav-stacked nav">
+								  <li role="presentation"><a href="#">Profile</a></li>
+								  <li role="presentation"><a href="#">Messages</a></li>
+								</ul>								
+							</div>
+						</div>
+										
+					</div>
+					<div class="col-md-9">
+					
+						<div class="col-md-12 ">
+							<pre class = "sort-link"><p><b> Сортировать</b>		по дате: <a href = "#">нов к стар</a>||<a href = "#">стар к нов</a>     по имени: <a href = "#">A-Z</a>||<a href = "#">Z-A</a>     по email: <a href = "#">A-Z</a>||<a href = "#">Z-A</a></p></pre>
+							</div>
+	<!-- -------------------------------------------------------------------------------------------------->
+						
+						<div class="col-md-12"> 
+						
+							<div class="panel panel-default">
+								<div class="panel-heading panel-heading2">
+									<span>Имя</span>
+									<span class = "pull-right">Дата</span>
+								</div>
+								<div class="panel-body my-panel-body">
+								
+									<div class="row">
+									  <form action = "index.php" method = "POST">
+											<div class = "col-md-9"> 
+												<div class="alert alert-success" role="alert">1 of sfjf sejf WOE</div>
+												<!--<div class="alert alert-info" role="alert">2</div>
+												<div class="alert alert-danger" role="alert">4</div> -->
+											</div>
+											
+											<div class = "col-md-1">
+												<button disabled type="submit" name="savebtn" id = "savebtn" class="btn btn-default mess-button" title = "Сохранить">
+													<span class = "glyphicon glyphicon-floppy-disk "></span>
+												</button>
+											</div>
+											<div class = "col-md-1">
+												<button type="submit" class="btn btn-default mess-button" title = "Одобрить" >
+													<span class = "glyphicon glyphicon-ok "></span>
+												</button>
+											</div>
+												
+											<div class = "col-md-1">
+												<button type="submit" class="btn btn-default mess-button" title = "Отказать">
+													<span class = "glyphicon glyphicon-remove"></span>
+												</button>
+											</div>
+											<div class = "col-md-12">
+											</div>
+											
+											<div class="col-md-2 ">
+												<p> <img src = "1.jpg"> </p>
+												<p> <a href="mailto:admin@kton.re">admin@kton.re</a> </p>
+												<p class = "edited-mess">Редактировано админом</p>
+											</div>
+											<div class="col-md-10 ">
+												<textarea class="form-control" rows="3" onchange = "swichButtnDisable(document.getElementById('savebtn'), false)">
+												</textarea>
+											</div>
+									  </form>
+									</div>
+									
+								</div>	
+									
+							</div>
+							
+						</div>
+						
+<!-- -------------------------------------------------------------------------------------------------->
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<footer>
+		<div class="container">
+			<hr>
+			<p class="pull-right">Design by Ali 2016</p>
+		</div>
+	</footer>
+
+    
+	
+	
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

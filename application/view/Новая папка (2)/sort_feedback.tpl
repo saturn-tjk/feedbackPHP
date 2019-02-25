@@ -1,0 +1,1 @@
+<pre class = "sort-link"><p><b> Сортировать</b>		по дате: <a href = "%sortdwnlinkondate%">нов к стар</a>||<a href = "%sortuplinkondate%">стар к нов</a>     по имени: <a href = "%sortdwnlinkonname%">A-Z</a>||<a href = "%sortduplinkonname%">Z-A</a>     по email: <a href = "%sortdwnlinkonemail%">A-Z</a>||<a href = "%sortduplinkonemail%">Z-A</a></p></pre>

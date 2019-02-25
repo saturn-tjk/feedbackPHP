@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Форум</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/mystyle.css">
+		<script src="js/myscripts.js"></script>
+
+	</head>
+  <body>
+    <header>
+		<div class="page-header">
+		  <form class="form-inline login">
+			  <div class="form-group">
+				<label class="sr-only" for="exampleInputEmail3">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+				<label class="sr-only" for="exampleInputPassword3">Password</label>
+				<input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+			  </div>
+			  <button type="submit" class="btn btn-default">Sign in</button>
+			</form>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="card-row clearfix">
+				
+					<div class="col-md-3">
+					
+						<div class="panel panel-default">
+							<div class="panel-heading"><h5>Темы форума</h5></div>
+							<div class="panel-body">
+								<ul class="nav nav-pills nav-stacked nav">
+								  <li role="presentation"><a href="#">Profile</a></li>
+								  <li role="presentation"><a href="#">Messages</a></li>
+								</ul>								
+							</div>	
+						</div>
+						
+					</div>
+					
+					<div class="col-md-9">
+					
+						<div class="row">
+							<div class="col-md-12 ">
+							<pre class = "sort-link"><p><b> Сортировать</b>		по дате: <a href = "#">нов к стар</a>||<a href = "#">стар к нов</a>     по имени: <a href = "#">A-Z</a>||<a href = "#">Z-A</a>     по email: <a href = "#">A-Z</a>||<a href = "#">Z-A</a></p></pre>
+							</div>
+						
+							<div class="col-md-12"> 
+							
+								<div class="panel panel-default">
+									<div class="panel-heading">
+									<span>Имя</span>
+									<span class = "pull-right">Дата</span>
+									</div>
+									<div class="panel-body">
+									
+										<div class="row">
+											<div class="col-md-2 ">
+											<p> <img src = "1.jpg"> </p>
+											<p> <a href="mailto:admin@kton.re">admin@kton.re</a> </p>
+											<p class = "edited-mess"> Редактировано админом </p>
+											</div>
+											<div class="col-md-10 ">
+											Сообщение
+											</div>
+										</div>
+										
+									</div>						
+								</div>
+								
+							</div>
+							
+						</div>
+									
+					</div>
+					<div class="col-md-3"></div>
+					<div class="col-md-9">
+						<hr>
+						<div class="alert alert-success" role="alert">Ваш отзыв был успешно отправлен и будет опубликоман после одобрения аминистратором!</div>
+						<form>
+						 <div class="form-group">
+							<label for="exampleInputName2">Name</label>
+							<input type="text" class="form-control" id="exampleInputName2" placeholder="Имя">
+						  </div>
+						  <div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						  </div>
+						  
+						  <textarea class="form-control" name="feedback_form_area" rows="3"></textarea>
+						  
+						  <div class="form-group">
+							<label for="feedback_form_InputFile">Загрузить изображения</label>
+							<input type="file" name="userfile" id="feedback_form_InputFile">
+						  </div>
+						  
+						  <button type="submit" class="btn btn-default">Отправить</button>
+						  <button type="button" class="btn btn-default" onclick="displayHTML(this.form.feedback_form_area)">Предворительный просмотр</button>
+						</form>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<footer>
+		<div class="container">
+			<hr>
+			<p class="pull-right">Design by Ali 2016</p>
+		</div>
+	</footer>
+
+    
+	
+	
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
